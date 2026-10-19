@@ -1,0 +1,2 @@
+[console_scripts]
+hrrr-ingest = hrrr_ingest.cli:main

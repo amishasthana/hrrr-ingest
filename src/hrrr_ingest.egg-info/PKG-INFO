@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: hrrr-ingest
+Version: 0.1.0
+Summary: Ingest NOAA HRRR forecasts for a set of points into DuckDB
+Requires-Python: >=3.10
+Requires-Dist: duckdb>=1.0
+Requires-Dist: eccodes>=2.37
+Requires-Dist: numpy>=1.24
+Requires-Dist: requests>=2.31
+Requires-Dist: scipy>=1.10
+Provides-Extra: test
+Requires-Dist: pytest>=8; extra == "test"
